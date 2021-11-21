@@ -29,10 +29,11 @@ if option == "FANG":
             st.image(f"https://finviz.com/chart.ashx?t={stock}&ta=0&ty=c&p=w&s=l", width=None)
 
 if option == "INDEX":
-    symbols=['SPY', 'QQQ', 'DIA', 'IWM', 'VTI', 'VIXY', 'SQQQ', 'TQQQ', 'SSO', 'UPRO', 'SPXL', 'XLK','SMH', 'IGV', 'TAN', 'ARKK', 'ARKG', 'ARKF', 'ARKQ', 'ARKX', 'CIBR',
-             'AAPL', 'AMZN', 'MSFT', 'FB', 'GOOGL', 'NFLX', 'NVDA', 'TSLA', 
-             'ADBE', 'NOW', 'PYPL', 'SQ', 'SE', 'SHOP', 'MELI', 'ROKU', 'DOCU', 'TWLO', 'ZM', 'ZS',
-             'LRCX', 'ASML', 'AMAT', 'AMD', 'TSM','SNAP', 'CRWD', 'NET', 'PINS', 'ABNB', 'DASH', 'PLTR', 'SNOW', 'DDOG', 'UPST', 'CELH']
+    symbols=['SPY', 'QQQ', 'DIA', 'IWM', 'VTI', 'VIXY', 'SQQQ', 'TQQQ', 'XLK','SMH', 'IGV', 'TAN', 'ARKK', 'FFTY', 'AAPL', 'AMZN', 'MSFT', 'GOOGL', 'FB', 
+             'NFLX', 'NVDA', 'TSLA', 'AMD', 'COST', 'SHOP', 'ADBE', 'INTU', 'ACN', 'ZS','LRCX', 'ASML', 'AMAT', 'TSM', 'QCOM', 'AVGO', 'MU', 'KLAC', 'TXN',
+             'NOW', 'CRM', 'TEAM', 'TTD', 'PYPL', 'SQ', 'SE', 'MELI', 'ROKU', 'DOCU', 'TWLO', 'ZM', 'SPOT', 'OKTA', 'CRWD', 'NET', 'FTNT', 'PANW', 'ANET',
+             'ABNB', 'DASH', 'PLTR', 'SNOW', 'DDOG', 'MDB', 'UPST', 'CELH', 'AFRM', 'ASAN', 'RBLX', 'SOFI', 'COIN', 'U', 'ASO', 'ZI', 'ZIM',
+             'RIVN', 'LCID', 'HD', 'LOW', 'CROX', 'NKE', 'TGT', 'DPZ', 'LULU', 'ENPH', 'DHI', 'SSO', 'UPRO', 'QLD', 'SPXL', 'SOXL', 'TNA' 'CIBR', 'GBTC', 'BITO', 'ETHE']
 
     if timing == "Daily":
         for stock in symbols:

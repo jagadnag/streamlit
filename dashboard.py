@@ -17,7 +17,7 @@ if option == "FANG":
 
     if timing == "Daily":
         for stock in symbols:
-            st.image(f"https://finviz.com/chart.ashx?t={stock}")
+            st.image(f"https://charts2.finviz.com/chart.ashx?t={stock}&ty=c&ta=1&p=d&tas=0")
 
     if timing == "Weekly":
         for stock in symbols:
@@ -25,19 +25,20 @@ if option == "FANG":
 
     if timing == "Both":
         for stock in symbols:
-            st.image(f"https://finviz.com/chart.ashx?t={stock}")
+            st.image(f"https://charts2.finviz.com/chart.ashx?t={stock}&ty=c&ta=1&p=d&tas=0")
             st.image(f"https://finviz.com/chart.ashx?t={stock}&ta=0&ty=c&p=w&s=l", width=None)
 
 if option == "INDEX":
     symbols=['SPY', 'QQQ', 'DIA', 'IWM', 'VTI', 'VIXY', 'SQQQ', 'TQQQ', 'XLK','SMH', 'IGV', 'TAN', 'ARKK', 'FFTY', 'AAPL', 'AMZN', 'MSFT', 'GOOGL', 'FB', 
              'NFLX', 'NVDA', 'TSLA', 'AMD', 'COST', 'SHOP', 'ADBE', 'INTU', 'ACN', 'ZS','LRCX', 'ASML', 'AMAT', 'TSM', 'QCOM', 'AVGO', 'MU', 'KLAC', 'TXN',
              'NOW', 'CRM', 'TEAM', 'TTD', 'PYPL', 'SQ', 'SE', 'MELI', 'ROKU', 'DOCU', 'TWLO', 'ZM', 'SPOT', 'OKTA', 'CRWD', 'NET', 'FTNT', 'PANW', 'ANET',
-             'ABNB', 'DASH', 'PLTR', 'SNOW', 'DDOG', 'MDB', 'UPST', 'CELH', 'AFRM', 'ASAN', 'RBLX', 'SOFI', 'COIN', 'U', 'ASO', 'ZI', 'ZIM',
-             'RIVN', 'LCID', 'HD', 'LOW', 'CROX', 'NKE', 'TGT', 'DPZ', 'LULU', 'ENPH', 'DHI', 'SSO', 'UPRO', 'QLD', 'SPXL', 'SOXL', 'TNA' 'CIBR', 'GBTC', 'BITO', 'ETHE']
+             'ABNB', 'DASH', 'PLTR', 'SNOW', 'DDOG', 'MDB', 'UPST', 'CELH', 'AFRM', 'ASAN', 'RBLX', 'SOFI', 'COIN', 'U', 'ASO', 'ZI', 'ZIM', 'ON', 'MRVL',
+             'RIVN', 'LCID', 'HD', 'LOW', 'CROX', 'NKE', 'TGT', 'DPZ', 'LULU', 'ENPH', 'DHI', 'JPM', 'BRK.B', 'GS', 'SCHW', 'BAC', 'CAT', 'DE', 'F', 'GM',
+             'SSO', 'UPRO', 'QLD', 'SPXL', 'SOXL', 'TNA', 'UDOW', 'ERX',  'CIBR', 'FAS', 'GBTC', 'BITO', 'ETHE']
 
     if timing == "Daily":
         for stock in symbols:
-            st.image(f"https://finviz.com/chart.ashx?t={stock}")
+            st.image(f"https://charts2.finviz.com/chart.ashx?t={stock}&ty=c&ta=1&p=d&tas=0")
 
     if timing == "Weekly":
         for stock in symbols:

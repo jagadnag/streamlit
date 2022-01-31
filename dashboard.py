@@ -11,11 +11,11 @@ timing = st.sidebar.selectbox("What Timeframe?", ('Daily', 'Weekly', 'Both'))
 st.header(option)
 
 if option == "FANG":
-    symbols=['SPY', 'QQQ', 'DIA', 'IWM', 'VTI', 'VIXY', 'SQQQ', 'TQQQ', 'XLK','SMH', 'IGV', 'TAN', 'ARKK', 'FFTY', 'SSO', 'UPRO', 'QLD', 'SPXL', 'SOXL',
+    symbols=['SPY', 'QQQ', 'DIA', 'IWM', 'VTI', 'VIXY', 'XLK','SMH', 'IGV', 'TAN', 'TLT', 'ARKK', 'FFTY', 'SQQQ', 'TQQQ', 'SSO', 'UPRO', 'QLD', 'SPXL', 'SOXL',
              'TECL', 'TNA', 'UDOW', 'ERX', 'FAS', 'LABU', 'NUGT', 'JNUG', 'GUSH',
              'XLK', 'XLY', 'XLP', 'XLRE', 'XLE', 'XLV', 'XLB', 'XLI', 'XLF', 'XLU', 'XLC', 'XHB', 'XSW', 'XSD', 'KRE', 'XME', 'XRT','XOP', 'GLD', 'KBE',
              'AAPL', 'AMZN', 'MSFT', 'GOOGL', 'FB', 'NFLX', 'NVDA', 'TSLA', 'ADBE', 'NOW', 'CRM', 'TEAM', 'ASML', 'LRCX', 'AMAT', 'AMD', 'TSM', 'MU',
-             'FTNT', 'TTD',  'COST', 'HD', 'INTU', 'ISRG', 'SNPS',  'ACN', 'ABNB','SNOW', 'DDOG', 'RBLX' 'MDB', 'CRWD', 'NET', 'APPS', 'SHOP', 'ETSY',
+             'FTNT', 'TTD',  'COST', 'HD', 'INTU', 'ISRG', 'SNPS', 'ACN', 'ABNB','SNOW', 'DDOG', 'RBLX', 'MDB', 'CRWD', 'NET', 'APPS', 'SHOP', 'ETSY',
              'OKTA', 'ZS', 'PANW', 'ANET', 'JNPR', 'TWLO', 'ROKU', 'U', 'DOCU', 'ZM', 'UBER']
 
     if timing == "Daily":

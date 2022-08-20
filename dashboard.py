@@ -99,6 +99,7 @@ if option == "Master":
     if timing == "Weekly":
         for stock in symbols:
             st.image(f"https://finviz.com/chart.ashx?t={stock}&ta=0&ty=c&p=w&s=l", width=None)
+            st.image(f"https://finviz.com/quote.ashx?b=1&t={stock}&ty=c&ta=1&p=w&tas=0", width=None)
 
     if timing == "Both":
         for stock in symbols:
